@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="thank.html">
+      <h1>Registration Form</h1>
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="pass">Password: </label>
+        <input type="password" name="pass" id="pass" />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male" id="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female" id="female">Female</label>
+        <input type="radio" name="gender" id="other" />
+        <label for="other" id="male">Other</label>
+      </div>
+      <br />
+      <div>
+        <label for="hobbies">Hobbies:</label>
+        <br />
+        <input type="checkbox" name="hobbies" id="reading" />
+        <label for="reading">Reading</label>
+        <br />
+        <input type="checkbox" name="hobbies" id="traveling" />
+        <label for="traveling">Traveling</label>
+        <br />
+        <input type="checkbox" name="hobbies" id="cooking" />
+        <label for="cooking">Cooking</label>
+        <br />
+        <input type="checkbox" name="hobbies" id="sports" />
+        <label for="sports">Sports</label>
+      </div>
+      <br />
+      <div>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+          <option value="delhi">Delhi</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="bangalore">Bangalore</option>
+          <option value="hyd">Hyderabad</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+      <br />
+      <div>
+        <label for="phone">Phone Number: </label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="10-digit number"
+          maxlength="10"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="add">Address:</label>
+        <br />
+        <textarea
+          name="add"
+          id="add"
+          placeholder="Enter your address"
+          rows="5"
+          cols="50"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
